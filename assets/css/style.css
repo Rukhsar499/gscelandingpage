@@ -249,7 +249,7 @@ background: linear-gradient(180deg, rgba(255,249,226,1) 0%, rgba(0,0,0,0.8939950
   }
   .hybris{
     background-color: #FFE2E2;
-    padding: 30px;
+    padding: 60px 30px 30px 30px;
     border-radius: 15px;
     text-align: center;
     margin-top: 20px;
@@ -291,6 +291,7 @@ background: linear-gradient(180deg, rgba(255,249,226,1) 0%, rgba(0,0,0,0.8939950
 	border-bottom-color: transparent;
 	background: #F1F1F1;
 	color:#FF4950;
+  border-radius: 0px 0px 20px 20px;
   }
   #tab-button li a{
     margin-right: 10px;
