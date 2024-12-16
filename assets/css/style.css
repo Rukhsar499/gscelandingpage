@@ -118,7 +118,7 @@ h1{
 }
 .place-box{
   background: rgb(255,226,226);
-  background: linear-gradient(180deg, rgba(255,226,226,1) 1%, rgba(0,0,0,1) 100%);
+background: linear-gradient(180deg, rgba(255,226,226,1) 0%, rgba(0,0,0,0.8939950980392157) 100%);
   border-radius: 10px;
   padding: 30px;
   text-align: center;
@@ -133,7 +133,7 @@ h1{
 }
 .green{
   background: rgb(226,255,233);
-  background: linear-gradient(180deg, rgba(226,255,233,1) 1%, rgba(0,0,0,1) 100%);
+background: linear-gradient(180deg, rgba(226,255,233,1) 0%, rgba(0,0,0,0.8939950980392157) 100%);
   margin-top: 70px;
 }
 .pink{
@@ -141,7 +141,7 @@ h1{
 }
 .orange{
   background: rgb(255,249,226);
-background: linear-gradient(180deg, rgba(255,249,226,1) 1%, rgba(0,0,0,1) 100%);
+background: linear-gradient(180deg, rgba(255,249,226,1) 0%, rgba(0,0,0,0.8939950980392157) 100%);
 }
 
 .place-box img{
