@@ -426,23 +426,49 @@ h2{
   
 }
 @media screen and (max-width: 767px) {
- 
+  .banner {
+    background-image: none;
+   background-color: #ED1C24;
+  }
 h2{
-  font-size: 24px;
+  font-size: 22px;
 }
-
-
+.pink, .orange, .green {
+  margin-top: 30px;
+}
+.why-img{
+  margin-bottom: 30px;
+}
+.border-r {
+  border-right: none;
+  border-bottom: 1px dotted #fff;
+}
 h1 {
 font-size: 26px;
 }
-
-.public-img{
-  margin-top: 30px;
+.hybris{
+ width: 100%;
+}
+.course-box li::before {
+  left: -15%;
+}
+.courses-box li::before {
+  left: -20%;
 }
 h3 {
     font-size: 16px;
 }
-
+select {
+  word-wrap: normal;
+  width: 100%;
+}
+.owl-dots {
+  position: absolute;
+  bottom: -4%;
+}
+.mb {
+  margin-bottom: 30px;
+}
 p{
   font-size: 13px;
 }
