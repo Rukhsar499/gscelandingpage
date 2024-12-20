@@ -172,6 +172,16 @@ background: linear-gradient(180deg, rgba(255,226,226,1) 0%, rgba(0,0,0,0.8939950
   width: 60px;
   text-align: center;
 }
+#quali{
+  margin-bottom: 5px;
+}
+#pree{
+  color: #EC3537;
+}
+.leader .owl-dots {
+  bottom: -5%;
+ 
+}
 .green{
   background: rgb(226,255,233);
 background: linear-gradient(180deg, rgba(226,255,233,1) 0%, rgba(0,0,0,0.8939950980392157) 100%);
