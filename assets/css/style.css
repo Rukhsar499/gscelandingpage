@@ -108,6 +108,18 @@ h1{
   color: #fff;
   font-weight: 700;
 }
+.modal-content{
+  background-color: #ff4046cb;
+}
+.modal-header .btn-close{
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+}
+.modal-header{
+  border-bottom: none;
+  padding: 10px 15px 0px 15px;
+}
 .header{
 	background-color: rgba(255, 0, 0, 0.014);
   /* position: fixed; */
