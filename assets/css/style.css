@@ -6,6 +6,9 @@
 	margin: 0;
     box-sizing: border-box !important;
 }
+a{
+  text-decoration: none;
+}
 h5{
   font-family:"Gilroy-Bold";
   color: #fff;
@@ -473,7 +476,9 @@ h2{
 .mb{
   margin-bottom: 60px;
 }
-
+.bottom-button{
+  display: none;
+}
 @media (max-width: 1500px) and (min-width: 1400px){
   
 }
@@ -481,6 +486,12 @@ h2{
   .banner {
     background-image: none;
    background-color: #ED1C24;
+   height: auto;
+   padding-bottom: 50px;
+   margin-bottom: 50px;
+  }
+  .icons{
+    display: none;
   }
 h2{
   font-size: 22px;
@@ -525,13 +536,23 @@ p{
   font-size: 13px;
 }
 .bottom-button{
-	display: block;
+	display: flex;
+  justify-content: space-around;
 	position: fixed;
 	z-index: 999;
 	bottom: 0;
-	background: rgb(219, 7, 34);
-    background: linear-gradient(90deg, rgba(219, 7, 34, 1) 18%, rgba(117, 4, 18, 1) 100%);
+	background: #ED1C24;
 	width: 100%;
+  padding: 10px;
+  border-right: 1px solid #ffffff93;
  }
+ .phone-btn, .whatsapp-btn, .apply-btn {
+ text-align: center;
+ color: #fff;
+ }
+
+ .leader .owl-dots {
+  bottom: -12%;
+}
 
 }
