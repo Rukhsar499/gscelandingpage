@@ -133,16 +133,19 @@ h1{
     transition: 0.5s;
 }
 .banner{
-  padding: 50px 0px 50px 0px;
+  padding: 50px 0px 0px 0px;
   background-image: url(../img/banner-back.png);
   background-position: center;
- background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  height: 800px;
 }
 .place-box{
   background: rgb(255,226,226);
 background: linear-gradient(180deg, rgba(255,226,226,1) 0%, rgba(0,0,0,0.8939950980392157) 100%);
   border-radius: 10px;
-  padding: 30px;
+  padding: 50px 30px;
   text-align: center;
 }
 .course{
@@ -155,14 +158,15 @@ background: linear-gradient(180deg, rgba(255,226,226,1) 0%, rgba(0,0,0,0.8939950
 .green{
   background: rgb(226,255,233);
 background: linear-gradient(180deg, rgba(226,255,233,1) 0%, rgba(0,0,0,0.8939950980392157) 100%);
-  margin-top: 70px;
+  margin-top: 120px;
 }
 .pink{
-  margin-top: 70px;
+  margin-top: 120px;
 }
 .orange{
   background: rgb(255,249,226);
 background: linear-gradient(180deg, rgba(255,249,226,1) 0%, rgba(0,0,0,0.8939950980392157) 100%);
+margin-top: 40px;
 }
 
 .place-box img{
