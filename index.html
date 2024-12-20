@@ -223,30 +223,30 @@
                             <div class="d-block d-lg-flex ser-vice">
                                 <div class="hybris">
                                     <p>Hybnrid <br> 
-                                    Classes</p>
+                                        Classes</p>
                                 </div>
                                 <div class="hybris" style="background-color: #E2FFE9;">
                                     <p>Mock
                                         <br> 
-                                    Tests
+                                        Tests
                                     </p>
                                 </div>
                                 <div class="hybris" style="background-color: #FFF9E2;">
                                     <p>Printed
                                         <br> 
-                                    Books
+                                        Books
                                     </p>
                                 </div>
                                 <div class="hybris" style="background-color: #E2E2FF;">
                                     <p>Achievers &
                                         <br> 
-                                    Achievers
+                                        Achievers
                                     </p>
                                 </div>
                                 <div class="hybris">
                                     <p>Competitive
                                         <br> 
-                                    Exam Magazines
+                                        Exam Magazines
                                     </p>
                                 </div>
                             </div>
@@ -328,17 +328,60 @@
                 <div class="item">
                     <div class="student-box">
                         <img src="assets/img/student.png" alt="">
-                        <div class="play-btn">
+                        <div class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="playVideo1()">
                             <img src="assets/img/video-circle.png" alt="">
                             <p id="cliv">click to watch</p>
                         </div>
-                        <h4>Megna Sarkar</h4>
+                        <h4>Ankush Choudhury</h4>
+                        <p>WBCS - 2024</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="student-box">
+                        <img src="assets/img/student.png" alt="">
+                        <div class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal1" onclick="playVideo2()">
+                            <img src="assets/img/video-circle.png" alt="">
+                            <p id="cliv">click to watch</p>
+                        </div>
+                        <h4>Indrani Pramanick</h4>
                         <p>WBCS - 2024</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         <video controls class="banners-vedio" src="assets/img/Ankush-Choudhury.mp4" id="myVideo1"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Modal -->
+   <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         <video controls class="banners-vedio" src="assets/img/Indrani-Pramanick.mp4" id="myVideo2"></video>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <section class="leader mb">
         <div class="container">
@@ -453,27 +496,37 @@
     <section class="copy">
         <p>Copyright @ gsce2024</p>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
+
+<script>
+    function playVideo1() {
+        var video = document.getElementById("myVideo1");
+        if (video.paused) {
+            video.play();
+        }
+    }
+
+    function closeVideo1() {
+        var video = document.getElementById("myVideo1");
+        video.pause();
+        video.currentTime = 0;  
+    }
+</script>
+
+<script>
+    function playVideo2() {
+        var video = document.getElementById("myVideo2");
+        if (video.paused) {
+            video.play();
+        }
+    }
+
+    function closeVideo2() {
+        var video = document.getElementById("myVideo2");
+        video.pause();
+        video.currentTime = 0;  
+    }
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

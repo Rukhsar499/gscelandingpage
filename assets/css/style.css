@@ -82,6 +82,11 @@ body{
   color: #fff;
   padding: 10px 0px 1px 0px;
 }
+.banners-vedio {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
 p{
   font-family: "Be Vietnam Pro", serif;
   font-size: 16px;
@@ -129,7 +134,6 @@ background: linear-gradient(180deg, rgba(255,226,226,1) 0%, rgba(0,0,0,0.8939950
 }
 ::placeholder {
   color: #fff !important;
-  
 }
 .green{
   background: rgb(226,255,233);
