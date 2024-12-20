@@ -155,15 +155,16 @@
                                 </div>
                                 <div class="mb-3">
                                     <select class="form-select" aria-label="Default select example">
-                                        <option selected>Open this select menu</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
+                                        <option selected>Course</option>
+                                        <option value="1">WBCS</option>
+                                        <option value="2">Railway NTPC</option>
+                                        <option value="3">Bankedge</option>
+                                        <option value="3">Regular Combined Course</option>
                                     </select>
                                 </div>
                                 <div class="mb-3">
                                     <select class="form-select" aria-label="Default select example">
-                                        <option selected>Open this select menu</option>
+                                        <option selected>Location</option>
                                         <option value="1">One</option>
                                         <option value="2">Two</option>
                                         <option value="3">Three</option>
@@ -206,10 +207,6 @@
                                 <ul>
                                     <li><b style="color:black">Duration:</b> 318 Hours (12 Months)</li>
                                     <li><b style="color:black">Delivery Mode:</b> Hybrid</li>
-                                    <li><b style="color:black">Price:</b> 40550 -> 6500</li>
-                                    <p class="inst">10 installments of Rs. 3405</p>
-                                    <li><b style="color:black">Lumpsum:</b> Rs. 37010/-</li>
-                                    <li><b>Class duration for Hybrid is 1.5 Hrs</b></li>
                                 </ul>
                             </div>
                         </div>
@@ -223,12 +220,12 @@
                             <div class="d-block d-lg-flex ser-vice">
                                 <div class="hybris">
                                     <p>Hybnrid <br> 
-                                        Classes</p>
+                                    Classes</p>
                                 </div>
                                 <div class="hybris" style="background-color: #E2FFE9;">
                                     <p>Mock
                                         <br> 
-                                        Tests
+                                     Tests
                                     </p>
                                 </div>
                                 <div class="hybris" style="background-color: #FFF9E2;">
@@ -925,6 +922,51 @@
         </div>
     </section>
 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Admission Form</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Student Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Phone Number">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Course</option>
+                            <option value="1">WBCS</option>
+                            <option value="2">Railway NTPC</option>
+                            <option value="3">Bankedge</option>
+                            <option value="3">Regular Combined Course</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Location</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
 
     <section class="copy">
         <p>Copyright @ gsce2024</p>
@@ -949,7 +991,7 @@
             <img src="assets/img/what.png"
             alt="whatsapp" width="26px" height="26px">
           </a>
-          <a href="#" class="apply-btn" onclick="openpopup()">Enquiry Now</button>
+          <a href="#" class="apply-btn" data-bs-toggle="modal" data-bs-target="#exampleModal11">Enquiry Now</button>
         </div>
     </section>
 
@@ -1088,6 +1130,15 @@
         video.pause();
         video.currentTime = 0;
     }
+</script>
+
+<script>
+    $(window).on('load', function() {
+    setTimeout(()=>{
+        $('#exampleModal').modal('show');
+    },10000)
+    
+});
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
