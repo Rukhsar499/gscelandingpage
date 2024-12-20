@@ -320,7 +320,7 @@
             "nav":false,
             "dots":true, 
             "loop":true,
-            "autoplay":true,
+            "autoplay":false,
             "autoplayTimeout":5000,
             "smartSpeed":1050,
             "responsive":{"0":{"items":1}, "600":{"items":2},"1000":{"items":4}}
@@ -347,6 +347,83 @@
                         <p>WBCS - 2024</p>
                     </div>
                 </div>
+                <div class="item">
+                    <div class="student-box">
+                        <img src="assets/img/student.png" alt="">
+                        <div class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal2" onclick="playVideo3()">
+                            <img src="assets/img/video-circle.png" alt="">
+                            <p id="cliv">click to watch</p>
+                        </div>
+                        <h4>Rakhi Das</h4>
+                        <p>WBCS - 2024</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="student-box">
+                        <img src="assets/img/student.png" alt="">
+                        <div class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal3" onclick="playVideo4()">
+                            <img src="assets/img/video-circle.png" alt="">
+                            <p id="cliv">click to watch</p>
+                        </div>
+                        <h4>Riya Kirtania</h4>
+                        <p>WBCS - 2024</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="student-box">
+                        <img src="assets/img/student.png" alt="">
+                        <div class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal4" onclick="playVideo5()">
+                            <img src="assets/img/video-circle.png" alt="">
+                            <p id="cliv">click to watch</p>
+                        </div>
+                        <h4>Samish Kumar</h4>
+                        <p>WBCS - 2024</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="student-box">
+                        <img src="assets/img/student.png" alt="">
+                        <div class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal5" onclick="playVideo6()">
+                            <img src="assets/img/video-circle.png" alt="">
+                            <p id="cliv">click to watch</p>
+                        </div>
+                        <h4>Sandip Bera</h4>
+                        <p>WBCS - 2024</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="student-box">
+                        <img src="assets/img/student.png" alt="">
+                        <div class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal6" onclick="playVideo7()">
+                            <img src="assets/img/video-circle.png" alt="">
+                            <p id="cliv">click to watch</p>
+                        </div>
+                        <h4>Saurav</h4>
+                        <p>WBCS - 2024</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="student-box">
+                        <img src="assets/img/student.png" alt="">
+                        <div class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal7" onclick="playVideo8()">
+                            <img src="assets/img/video-circle.png" alt="">
+                            <p id="cliv">click to watch</p>
+                        </div>
+                        <h4>Unknown</h4>
+                        <p>WBCS - 2024</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="student-box">
+                        <img src="assets/img/student.png" alt="">
+                        <div class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal8" onclick="playVideo9()">
+                            <img src="assets/img/video-circle.png" alt="">
+                            <p id="cliv">click to watch</p>
+                        </div>
+                        <h4>Unknown 1</h4>
+                        <p>WBCS - 2024</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -359,7 +436,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeVideo1()"></button>
         </div>
         <div class="modal-body">
          <video controls class="banners-vedio" src="assets/img/Ankush-Choudhury.mp4" id="myVideo1"></video>
@@ -374,10 +451,115 @@
       <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeVideo2()"></button>
         </div>
         <div class="modal-body">
          <video controls class="banners-vedio" src="assets/img/Indrani-Pramanick.mp4" id="myVideo2"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Modal -->
+   <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeVideo3()"></button>
+        </div>
+        <div class="modal-body">
+         <video controls class="banners-vedio" src="assets/img/Rakhi-Das.mp4" id="myVideo3"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeVideo4()"></button>
+        </div>
+        <div class="modal-body">
+         <video controls class="banners-vedio" src="assets/img/Riya-Kirtania.mp4" id="myVideo4"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeVideo5()"></button>
+        </div>
+        <div class="modal-body">
+         <video controls class="banners-vedio" src="assets/img/Samish-kumar.mp4" id="myVideo5"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Modal -->
+   <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeVideo6()"></button>
+        </div>
+        <div class="modal-body">
+         <video controls class="banners-vedio" src="assets/img/Sandip-Bera.mp4" id="myVideo6"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeVideo7()"></button>
+        </div>
+        <div class="modal-body">
+         <video controls class="banners-vedio" src="assets/img/saurav.mp4" id="myVideo7"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeVideo8()"></button>
+        </div>
+        <div class="modal-body">
+         <video controls class="banners-vedio" src="assets/img/Unknown.mp4" id="myVideo8"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeVideo9()"></button>
+        </div>
+        <div class="modal-body">
+         <video controls class="banners-vedio" src="assets/img/Unknown1.mp4" id="myVideo9"></video>
         </div>
       </div>
     </div>
@@ -523,6 +705,111 @@
 
     function closeVideo2() {
         var video = document.getElementById("myVideo2");
+        video.pause();
+        video.currentTime = 0;  
+    }
+</script>
+
+<script>
+    function playVideo3() {
+        var video = document.getElementById("myVideo3");
+        if (video.paused) {
+            video.play();
+        }
+    }
+
+    function closeVideo3() {
+        var video = document.getElementById("myVideo3");
+        video.pause();
+        video.currentTime = 0;  
+    }
+</script>
+
+<script>
+    function playVideo4() {
+        var video = document.getElementById("myVideo4");
+        if (video.paused) {
+            video.play();
+        }
+    }
+
+    function closeVideo4() {
+        var video = document.getElementById("myVideo4");
+        video.pause();
+        video.currentTime = 0;  
+    }
+</script>
+
+<script>
+    function playVideo5() {
+        var video = document.getElementById("myVideo5");
+        if (video.paused) {
+            video.play();
+        }
+    }
+
+    function closeVideo5() {
+        var video = document.getElementById("myVideo5");
+        video.pause();
+        video.currentTime = 0;  
+    }
+</script>
+
+<script>
+    function playVideo6() {
+        var video = document.getElementById("myVideo6");
+        if (video.paused) {
+            video.play();
+        }
+    }
+
+    function closeVideo6() {
+        var video = document.getElementById("myVideo6");
+        video.pause();
+        video.currentTime = 0;  
+    }
+</script>
+
+<script>
+    function playVideo7() {
+        var video = document.getElementById("myVideo7");
+        if (video.paused) {
+            video.play();
+        }
+    }
+
+    function closeVideo7() {
+        var video = document.getElementById("myVideo7");
+        video.pause();
+        video.currentTime = 0;  
+    }
+</script>
+
+<script>
+    function playVideo8() {
+        var video = document.getElementById("myVideo8");
+        if (video.paused) {
+            video.play();
+        }
+    }
+
+    function closeVideo8() {
+        var video = document.getElementById("myVideo8");
+        video.pause();
+        video.currentTime = 0;  
+    }
+</script>
+
+<script>
+    function playVideo9() {
+        var video = document.getElementById("myVideo9");
+        if (video.paused) {
+            video.play();
+        }
+    }
+
+    function closeVideo9() {
+        var video = document.getElementById("myVideo9");
         video.pause();
         video.currentTime = 0;  
     }
