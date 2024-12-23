@@ -40,7 +40,7 @@ body{
 	background-color: #f2f3f4;
 /* background-image: linear-gradient(180deg, #FFF0E5 0%, #FFF0E5 40%);    */
 }
- select option{
+ .form-box select option, .modal-body select option{
   color: #000;
 }
 .ser-vice {
@@ -49,7 +49,7 @@ body{
   gap: 70px;
 }
 .course-box{
-  padding-top: 40px;
+  padding-top: 70px;
 }
 .enq-box{
   background-color: rgba(255, 0, 0, 0.089);
@@ -78,6 +78,7 @@ body{
   padding: 5px;
   border-radius: 20px;
 }
+
 .btn-primary{
   width: 100%;
   background-color: #fff;
@@ -309,11 +310,14 @@ margin-top: 40px;
   }
   .hybris{
     background-color: #FFE2E2;
-    padding: 60px 30px 30px 30px;
+    padding: 50px 30px 30px 30px;
     border-radius: 15px;
     text-align: center;
     margin-top: 20px;
     width: 40%;
+  }
+  .h-clas{
+    padding: 64px 30px 30px 30px;
   }
   .inst{
     background-color: #F5F5F5;
