@@ -587,5 +587,8 @@ p{
 .btn-danger, .btn-dark {
   width: 124px;
 }
-
+.marq{
+  font-size: 12px;
+  scrollamount: 5;
+}
 }
