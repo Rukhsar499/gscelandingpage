@@ -90,6 +90,7 @@ body{
   text-align: center;
   color: #fff;
   padding: 10px 0px 1px 0px;
+  display: block;
 }
 .banners-vedio {
   width: 100%;
@@ -500,6 +501,9 @@ h2{
 .cp{
   justify-content: space-around;
 }
+#dw{
+  font-size: 12px;
+}
 @media (max-width: 1500px) and (min-width: 1400px){
   
 }
@@ -596,5 +600,8 @@ p{
 }
 .course-box {
   padding-top: 20px;
+}
+.copy{
+  margin-bottom: 60px;
 }
 }
