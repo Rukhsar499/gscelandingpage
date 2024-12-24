@@ -47,57 +47,11 @@ $(function() {
         header.classList.toggle("sticky", window.scrollY > 50);
     })
   
-    // header active link
-    
-    document.addEventListener('DOMContentLoaded', function () {
-        const currentPath = window.location.pathname.split("/").pop();
-     
-        const navLinks = document.querySelectorAll('.nav-link');
-     
-        navLinks.forEach(link => {
-          if (link.getAttribute('href') === currentPath) {
-            link.classList.add('active');
-          } else {
-            link.classList.remove('active');
-          }
-        });
-      });
+    $(window).on('load', function () {
+      setTimeout(() => {
+          $('#exampleModal11').modal('show');
+      }, 10000)
 
-// top scroll
-
-window.onscroll = function() {
-  scrollFunction()
-};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("go-top").style.display = "block ";
-  } else {
-      document.getElementById("go-top").style.display = "none ";
-  }
-}
-
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
-// data aos
-
-
-  AOS.init();
-  AOS.refresh(); // initialize AOS animations
-  $(document).ready(function(){
-      $("body,html").animate({
-          scrollTop: 10
-      }, 1000);
-      $("body,html").animate({
-          scrollTop: 0
-      }, 1);
   });
 
-// loader js
-var loader = document.getElementById("preloader");
-window.addEventListener("load", function(){
-  loader.style.display = "none";
-})
+
