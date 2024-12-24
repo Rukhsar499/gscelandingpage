@@ -426,6 +426,9 @@ h2{
   border-radius: 50px;
   font-family:"Gilroy-Bold";
 }
+/* .btn-danger{
+  margin-top: 20px;
+} */
 .play-btn{
   background-color: #FF4047;
   width: 68px;
@@ -580,5 +583,9 @@ p{
 }
 .whatsapp-btn, .apply-btn{
   padding-top: 5px;
+}
+.btn-danger, .btn-dark {
+  width: 124px;
+  
 }
 }
