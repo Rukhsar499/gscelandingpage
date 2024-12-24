@@ -504,6 +504,20 @@ h2{
 #dw{
   font-size: 12px;
 }
+.owl-next span, .owl-prev span{
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+}
+.owl-next span{
+  top: 30%;
+  right: -1%;
+}
+.owl-prev span{
+  top: 30%;
+  left: -1%;
+}
 @media (max-width: 1500px) and (min-width: 1400px){
   
 }
