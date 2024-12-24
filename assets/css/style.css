@@ -421,6 +421,11 @@ h2{
 .student-box{
   position: relative;
 }
+.btn-danger, .btn-dark{
+  width: 150px;
+  border-radius: 50px;
+  font-family:"Gilroy-Bold";
+}
 .play-btn{
   background-color: #FF4047;
   width: 68px;
