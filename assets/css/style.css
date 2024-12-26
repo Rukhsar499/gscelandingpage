@@ -217,10 +217,12 @@ margin-top: 40px;
 }
 .marq{
   padding-top: 8px;
-  font-weight: 600;
+  height: 45px;
+  font-weight: 700;
+  font-size: 20px;
 }
 .marque-box{
-  background-color: #000;
+  background-color: #ED1C24;
   color: #fff;
   z-index: 999;
 }
