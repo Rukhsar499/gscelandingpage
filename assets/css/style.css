@@ -123,6 +123,10 @@ h1{
   font-weight: 500;
   font-size: 26px !important;
 }
+.reds{
+  color: #ED1C24;
+  
+}
 .modal-content{
   background-color: #ff4046cb;
 }
