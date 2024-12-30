@@ -138,6 +138,11 @@ h1{
 .bt{
   padding-top: 20px;
 }
+#note{
+ font-size: 14px;
+ 
+ margin-top: 20px;
+}
 .modal-header{
   border-bottom: none;
   padding: 10px 15px 0px 15px;
