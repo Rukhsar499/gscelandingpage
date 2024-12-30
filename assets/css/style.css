@@ -135,6 +135,9 @@ h1{
   height: 30px;
   background-color: #fff;
 }
+.bt{
+  padding-top: 20px;
+}
 .modal-header{
   border-bottom: none;
   padding: 10px 15px 0px 15px;
@@ -489,11 +492,13 @@ h2{
   color: #000;
   background-color: transparent;
   border-bottom: 2px solid #EC3537;
+  
 }
 .nav-pills .nav-link{
   color: #EC3537;
   font-weight: 600;
   font-size: 18px;
+  margin-right: 20px;
 }
 .border-r{
   border-right: 1px dotted #fff;
