@@ -51,6 +51,47 @@ body{
 .course-box{
   padding-top: 70px;
 }
+.why li{
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: "Be Vietnam Pro", serif;
+}
+.why ul{
+  list-style: none;
+  padding-left: 0 !important;
+}
+.why ul li::before{
+  content: '';
+  background-image: url(../img/arrowli.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  display:inline-block;
+  margin-right: 10px;
+}
+.wh{
+  position: absolute;
+  padding-top: 30px;
+}
+.success {
+  background-color: #CAE4F7;
+  border-radius: 10px;
+  box-shadow: 1px 1.732px 60px 0 rgba(0, 0, 0, .01);
+  margin-top: 20px;
+  padding: 30px 15px;
+  position: relative;
+  text-align: center;
+}
+.success img{
+  width: 40% !important;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.s-txt h5{
+  color: #000;
+}
 .enq-box{
   background-color: rgba(255, 0, 0, 0.089);
   color: #FF4A51;
