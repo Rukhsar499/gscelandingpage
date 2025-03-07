@@ -75,6 +75,11 @@ body{
   position: absolute;
   padding-top: 30px;
 }
+.fa-quote-right{
+  color: #ED1C24;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
 .success {
   background-color: #CAE4F7;
   border-radius: 10px;
