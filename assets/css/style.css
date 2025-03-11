@@ -23,6 +23,12 @@ h4{
   margin-bottom: 4px;
   font-size: 22px;
 }
+.course-tetx{
+  background-color: #ED1C24;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
 #preloader{
   background-color: #ffefe6 !important;
   height: 100vh;
@@ -72,7 +78,7 @@ body{
   margin-right: 10px;
 }
 .wh{
-  position: absolute;
+  position: relative;
   padding-top: 30px;
 }
 .fa-quote-right{
@@ -704,5 +710,8 @@ p{
 }
 .copy{
   margin-bottom: 60px;
+}
+.why li {
+ font-size: 14px;
 }
 }
