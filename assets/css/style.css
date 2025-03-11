@@ -29,6 +29,13 @@ h4{
   padding: 10px;
   text-align: center;
 }
+.coursef-box{
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, .175);
+}
 #preloader{
   background-color: #ffefe6 !important;
   height: 100vh;
