@@ -57,6 +57,11 @@ body{
  .form-box select option, .modal-body select option{
   color: #000;
 }
+.course h6{
+  color: #000;
+  font-weight: 700;
+  font-size: 18px;
+}
 .ser-vice {
   display: flex;
   justify-content: center;
